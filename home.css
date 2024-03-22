@@ -9,7 +9,7 @@ section{
     gap: 1.5rem;
     padding-top: 0rem;
     height: 100vh;  
-    background:url(/Assets/background.jpg);
+    background:url(Assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
