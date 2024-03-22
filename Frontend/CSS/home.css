@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+section{
+    padding: 2rem 9%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 0rem;
+    height: 100vh;  
+    background:url(/Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.579);
+}
+.home .content{
+    flex: 1 1 45rem;
+}
+/* designing the text */
+.home .content h3{
+    color: rgb(255, 255, 255);
+    font-family: "Germania One", system-ui;
+    font-weight: 900;
+    font-size: 4.5rem;
+    position: relative;
+}
+.home .content p{
+    font-size: 2rem;
+    color: rgb(235, 235, 235);
+    line-height: 1.8;
+    padding: 1rem 0;
+    position: relative;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border: 1px solid blue;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--blue);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background-color: #f6f4f4;
+}
+.btn span{
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background:var(--blue);
+    color: #fff;
+    margin-left:.5rem;
+}
+.btn:hover{
+    background: var(--blue);
+    color: white;
+}
+.btn:hover span{
+    color:var(--blue);
+    background-color: #f6f4f4;
+}

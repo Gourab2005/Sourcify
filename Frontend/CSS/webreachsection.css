@@ -1,0 +1,11 @@
+.web-reach-section{
+    background:url(/Assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.web-reach-section img{
+    width: 80vw;
+    padding: 2rem;
+}

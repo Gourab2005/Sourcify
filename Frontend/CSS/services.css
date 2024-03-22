@@ -1,0 +1,41 @@
+.services{
+    background-color:rgb(71, 2, 105);
+    font-family: "Akaya Kanadaka", system-ui;
+}
+.services .boxcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem,1fr));
+    gap: 8rem;
+}
+.services .boxcontainer .box{
+    background: #fff;
+    border-radius: .5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 4rem;
+}
+.services .boxcontainer .box i{
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+.services .boxcontainer .box h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: .4rem;
+    color: white;
+}
+.box .btn{
+    text-align: center;
+    padding: 0.5rem;
+}
+.box .btn:hover{
+    background-color: black;
+    color: white;
+}
